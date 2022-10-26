@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <style>
+      .uber-button {
+        background-color: black;
+        color: white;
+        border: none;
+        height: 40px;
+        width: 110px;
+        cursor: pointer;
+        transition: opacity 0.15s;
+        margin: 10px;
+      }
+
+      .uber-button:hover {
+        opacity: 0.8;
+      }
+
+      .Amazon-button {
+        background-color: rgb(255, 216, 20);
+        border: none;
+        height: 30px;
+        width: 140px;
+        border-radius: 15px;
+        cursor: pointer;
+        margin: 10px;
+      }
+
+      .Amazon-button:hover {
+        background-color: rgb(245, 205, 3);
+      }
+    </style>
+
+    <button class="uber-button">Request Now</button>
+
+    <button class="Amazon-button">Add to cart</button>
+  </body>
+</html>

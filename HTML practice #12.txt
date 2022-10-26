@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <style>
+      .uber-button {
+        background-color: black;
+        color: white;
+        border: none;
+        height: 40px;
+        width: 110px;
+        cursor: pointer;
+        transition: opacity 0.15s;
+        margin: 10px;
+      }
+
+      .uber-button:hover {
+        opacity: 0.8;
+      }
+
+      .Amazon-button {
+        background-color: rgb(255, 216, 20);
+        border: none;
+        height: 30px;
+        width: 140px;
+        border-radius: 15px;
+        cursor: pointer;
+        margin: 10px;
+      }
+
+      .Amazon-button:hover {
+        background-color: rgb(245, 205, 3);
+      }
+
+      .GitHub-button {
+        background-color: rgb(46, 164, 79);
+        color: white;
+        border: none;
+        height: 40px;
+        width: 90px;
+        font-weight: bold;
+        font-size: 15px;
+        border-radius: 6px;
+        cursor: pointer;
+        transition: box-shadow 0.15s;
+        margin: 10px;
+      }
+
+      .GitHub-button:hover {
+        box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.15);
+      }
+
+      .bootstrap1 {
+        background-color: rgb(121, 82, 179);
+        color: white;
+        border: none;
+        height: 40px;
+        width: 110px;
+        font-weight: bold;
+        border-radius: 4px;
+        cursor: pointer;
+        margin-right: 6px;
+        transition: background-color 0.15s;
+        margin: 10px;
+      }
+
+      .bootstrap1:hover {
+        background-color: rgb(99, 60, 156);
+      }
+
+      .bootstrap2 {
+        background-color: white;
+        color: rgb(108, 117, 125);
+        border-width: 1px;
+        border-style: solid;
+        border-color: rgb(108, 117, 125);
+        height: 40px;
+        width: 100px;
+        font-weight: bold;
+        border-radius: 4px;
+        cursor: pointer;
+        transition: background-color 0.15s, color 0.15s;
+        margin: 10px;
+      }
+
+      .bootstrap2:hover {
+        background-color: rgb(108, 117, 125);
+        color: white;
+      }
+    </style>
+
+    <button class="uber-button">Request Now</button>
+
+    <button class="Amazon-button">Add to cart</button>
+
+    <button class="GitHub-button">Sign up</button>
+
+    <button class="bootstrap1">Get Started</button>
+
+    <button class="bootstrap2">Download</button>
+  </body>
+</html>

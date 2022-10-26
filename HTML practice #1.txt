@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>My First Webpage</title>
+    <style>
+      img {
+        width: 100px;
+        border-radius: 20px;
+        float: right;
+        margin-right: 20px;
+      }
+      .username {
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <img
+      src="images/photo-1525609004556-c46c7d6cf023.jpg"
+      alt="A picture of Lamborghini"
+    />
+    <p class="username">@Lamborghini</p>
+    <p>I will own that one day</p>
+  </body>
+</html>
